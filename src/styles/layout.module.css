@@ -1,0 +1,21 @@
+ /* Containers */
+
+.container {
+    @apply px-5 mx-auto;
+}
+
+@media (min-width: 1340px) {
+    .container {
+        @apply max-w-container;
+    }
+}
+
+@media (min-width: 780px) {
+    .container {
+        @apply w-9/10;
+    }
+}
+
+.flexCenter {
+    @apply flex items-center justify-end;
+}
